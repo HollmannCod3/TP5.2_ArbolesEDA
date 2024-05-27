@@ -9,5 +9,29 @@ package tp5.pkg2_arboleseda;
  * @author Hollmann
  */
 public class Arbol {
-    
+   
+    private int[] arbolBinario;
+    Nodo raiz;
+
+    public Arbol(int[] arbolBinario, Nodo raiz) {
+        this.arbolBinario = arbolBinario;
+        this.raiz = raiz;
+    }
+
+ 
+        
+    public void insertar(int valor) {
+        if (raiz == null){
+            raiz= new Nodo(valor);
+          insertar();
+       
+    }
 }
+        
+ 
+
+ 
+    
+    
+    
+

@@ -1,7 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+//1. Diseñe la clase árbol binario usando arreglo, agregue el método insertar,
+//uno de los recorridos y una búsqueda
+//2. Diseñe la clase árbol binario usando una implementación enlazada, agregue
+//el método insertar, uno de los recorridos, una búsqueda.
+
+
 package tp5.pkg2_arboleseda;
 
 /**
@@ -10,9 +12,7 @@ package tp5.pkg2_arboleseda;
  */
 public class TP52_ArbolesEDA {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
     }
