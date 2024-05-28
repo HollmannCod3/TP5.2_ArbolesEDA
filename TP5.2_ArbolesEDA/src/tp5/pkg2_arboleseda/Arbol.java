@@ -4,28 +4,33 @@
  */
 package tp5.pkg2_arboleseda;
 
+
+
 /**
  *
  * @author Hollmann
  */
 public class Arbol {
    
-    private int[] arbolBinario;
-    Nodo raiz;
+   private int[] arbolbinario;
 
-    public Arbol(int[] arbolBinario, Nodo raiz) {
-        this.arbolBinario = arbolBinario;
-        this.raiz = raiz;
+    public Arbol(int[] arbolbinario) {
+        arbolbinario = new int[10];
+        for (int i = 0; i < 10; i++) {
+            arbolbinario[i] = -1;
+        }
     }
+    
+   
+public void insertar(int valor){
+    int tamaño = 0;
+         if (arbolbinario[tamaño] == -1){
+        arbolbinario[tamaño] = valor;
+        tamaño ++;
+    }
+    
+}   
 
- 
-        
-    public void insertar(int valor) {
-        if (raiz == null){
-            raiz= new Nodo(valor);
-          insertar();
-       
-    }
 }
         
  
